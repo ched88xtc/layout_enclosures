@@ -1,0 +1,35 @@
+div {
+  display: block;
+}
+
+body {
+  margin: 20px;
+  background-color: black;
+}
+
+section {
+  background-color: #fea90d;
+}
+
+.interval {
+  margin-top: 40px;
+}
+
+.inner {
+  border: 1px solid #e95d49;
+  padding: 10px;
+  background-color: #ddd;
+  margin: 0;
+}
+
+.outer,
+section {
+  padding: 10px;
+  border: 1px solid #e95d49;
+}
+
+.outer {
+  background-color: #3a92c3;
+  width: 350px;
+  box-sizing: border-box;
+}
