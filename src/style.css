@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 div {
   display: block;
 }
@@ -31,5 +35,4 @@ section {
 .outer {
   background-color: #3a92c3;
   width: 350px;
-  box-sizing: border-box;
 }
