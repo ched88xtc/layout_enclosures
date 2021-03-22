@@ -2,17 +2,18 @@
   box-sizing: border-box;
 }
 
-div {
-  display: block;
-}
-
 body {
   margin: 20px;
   background-color: black;
 }
 
-section {
+.outer__section {
   background-color: #fea90d;
+}
+
+.interval,
+.outer {
+  display: block;
 }
 
 .interval {
@@ -27,7 +28,7 @@ section {
 }
 
 .outer,
-section {
+.outer__section {
   padding: 10px;
   border: 1px solid #e95d49;
 }
