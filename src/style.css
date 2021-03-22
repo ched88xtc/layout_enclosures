@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  background-color: black;
+}
+
+.outer__section {
+  background-color: #fea90d;
+}
+
+.interval,
+.outer {
+  display: block;
+}
+
+.interval {
+  margin-top: 40px;
+}
+
+.inner {
+  border: 1px solid #e95d49;
+  padding: 10px;
+  background-color: #ddd;
+  margin: 0;
+}
+
+.outer,
+.outer__section {
+  padding: 10px;
+  border: 1px solid #e95d49;
+}
+
+.outer {
+  background-color: #3a92c3;
+  width: 350px;
+}
